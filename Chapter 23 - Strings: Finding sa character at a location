@@ -1,0 +1,47 @@
+Question 1: What is the keyword for finding a character at particular location in a string?
+Answer: charAt()
+
+Question 2: In this string, what character is at index 2?— "abcde"
+Don't include quotation marks in your answer. 
+Answer: c
+
+Question 3: Type the characters that are incorrect.
+var cha = sentence.charAt[10];
+Answer: [] 
+
+Question 4: The last character of the string is assigned to the variable. 
+Fill in the blank, using the string length to specify the index.
+var lastChar = str.charAt(________);
+Answer: str.length -1
+
+Question 7:Fail-safe coding. If you type the wrong character, I'll cancel the keystroke. Type spaces.
+Find the last character in the string represented by str and assign it to x, which hasn't been declared beforehand.
+Answer: var x = str.charAt(str.length - 1);
+
+Question 8: Fail-safe coding. If you type the wrong character, I'll cancel the keystroke. Type spaces.
+Find the last character in the string represented by str and assign it to x, which hasn't been declared beforehand.
+Answer: var x = str.charAt(0);
+
+Question 9: Find the the 5th character in a string represented by input and assign it to cha, which hasn't been declared beforehand.
+Answer: var cha = input.charAt(4);
+
+Question 10: Find the last character in a string represented by a variable and assign it to a variable that hasn't been declared beforehand.
+Answer: var x = str.charAt(str.length - 1); 
+
+Question 11: Code the first line of an if statement that tests whether the 3rd character of a string represented by a variable is a particular character.
+Answer: if (str.charAt(2) === "a) {
+
+Question 12: Code a for loop that cycles through all the characters of a string represented by a variable and assigns each character to an element of an array that has been declared beforehand.
+Answer 12: for (var i = 0; i < text.length; i++) {
+textArray[i] = text.charAt(i);
+}
+
+Question 18: Concatenate the first character of a string represented by a variable with the last character of another string represented by a variable and assign the combination to a variable that hasn't been declared beforehand.
+Answer: var combo = str1.charAt(0) + str2.charAt(str2.lenght - 1);
+
+Question 19: Assign a string to a variable.
+Specifying the variable in the message, code an alert that displays the first character of the string.
+Click the Run It button to run your code live.
+Answer: var text = "Let the great world spin.";
+alert(text.charAt(0));
+
