@@ -1,0 +1,38 @@
+Questions 1: Fill in the blank to round to the nearest integer.
+var roundedNum = ___________(fractionalNum);
+Answer: Math.round
+
+Question 2: Fill in the blank to round up.
+var roundedNum = ___________(fractionalNum);
+Answer: Math.ceil
+
+Question 3: Fill in the blank to round down.
+var roundedNum = ___________(fractionalNum);
+Answer: Math.floor
+
+Question 4: What is the value of roundedNum?
+var roundedNum = Math.floor(1.9);
+Answer: 1
+
+Question 6: Round up a number represented by origNum and assign it to roundNum, which hasn't been declared beforehand.
+Answer: var roundNum = Math.ceil(origNum);
+
+Question 7: Round down a number represented by origNum and assign it to roundNum, which hasn't been declared beforehand.
+Answer: var roundNum = Math.floor(origNum);
+
+Question 8: Round a number represented by a variable and assign the result to a second variable that hasn't been declared beforehand.
+Answer: var int = Math.round(fractional);
+
+Question 9: Round down a number represented by a variable and assign the result to a second variable that hasn't been declared beforehand.
+Answer: Var num = Math.floor(origNum);
+
+Question 10: Round up a number represented by a variable and assign the result to a second variable that hasn't been declared beforehand.
+Answer 10: var num = Math.ceil(netNum);
+
+Question 11: Round .5 to 0 and assign it to a variable that hasn't been declared beforehand.
+Answer: var num = Math.floor(.5);
+
+Question 12: Round .00001 to 1 and assign it to a variable that hasn't been declared beforehand.
+Answer: var num = Math.ceil(.00001);
+
+
