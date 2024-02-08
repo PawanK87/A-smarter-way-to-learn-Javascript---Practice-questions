@@ -1,0 +1,50 @@
+Question 1: What is the keyword for converting "1.5" to 1?
+Answer: parseInt
+
+Question 2: What is the keyword for converting "1.5" to 1.5?
+Answer: parseFloat
+
+Question 3: If JavaScript encounters a number inside quotation marks in an arithmetic expression, it temporarily converts it to a number and does the math, unless the expression includes.... Type the character.
+Answer: + (If JavaScript sees a plus sign, it converts any numbers to strings and concatenates.)
+
+Question 4: What is the value of num?
+var num = parseInt("5.6");
+Answer: 5
+
+Question 6: Convert the string represented by price to a number with a decimal value and assign the result to the same variable.
+Answer: price = parseFloat(price);
+
+Question 7: The string "2" has been assigned to the variable x. In a single statement add x plus x converted to integers. (Make the conversion in the same statement). Assign the result to tot, which hasn't been declared beforehand.
+Answer: var tot = parseInt(x) + parseInt(x);
+
+Question 8: Convert a string represented by a variable to an integer and assign it to a second variable that hasn't been declared beforehand.
+Answer: var myNum = parseInt(myString);
+
+Question 9: Convert a string represented by a variable to a number with a decimal value and assign it to a second variable that hasn't been declared beforehand.
+Answer: var myNum = parseFloat(myString);
+
+Question 10: The string "1.99" has been assigned to price. In a single statement convert it to 1 and assign the result to the same variable.
+Answer: price = parseInt(price);
+
+Question 11: In a single statement code an alert that displays the sum, including decimals, of 2 different strings represented by variables, converted to numbers.
+Answer: alert(parseFloat(str1) + parseFloat(str2));
+
+Question 12: Code the first line of an if statement that tests whether a string represented by a variable, converted to an integer, is greater than 1.
+Answer: if (parseInt(myString) > 1) {
+
+Question 18: Code the first line of a for statement. The string "0" (that's a zero in quotes) has been assigned to the variable numString. Your statement assigns to the counter, i, the string represented by numString, converted to an integer. Run it 10 times, using <, with the usual incrementing.
+Answer: for (var i = parseInt(numString); i < 10; i++) {
+
+Question 19: Assign a string, a number enclosed by quotation marks, to a variable.
+Code an alert that displays the sum of the number, converted to an integer, added to itself.
+Click the Run It button to run your code live.
+Answer: var numAsString = "100";
+alert(parseInt(numAsString) + parseInt(numAsString));
+
+Question 20: Assign a string, a floating-point number enclosed by quotation marks, to a variable.
+Code an alert that displays the sum of the number, converted to a floating-point number, added to itself.
+Click the Run It button to run your code live. Try running it several times.
+Answer: var numAsString = "1.1";
+alert(parseFloat(numAsString) + parseFloat(numAsString));
+
+
