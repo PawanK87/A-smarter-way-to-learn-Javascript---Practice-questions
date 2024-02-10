@@ -1,0 +1,54 @@
+Question 1: You want to change the year of a Date object. What is the keyword?
+Answer: setFullYear
+
+Question 2: What is the keyword for adjusting the smallest unit of time in a Date object?
+Answer: setMilliseconds
+
+Question 3: If the original Date object is "January 1, 2001" what month is it after this statement executes? Spell out the month.
+d.setMonth(7);
+Answer: August
+
+Question 4: To specify half a second, what number do you enclose in the parentheses?
+d.setMilliseconds(__);
+Answer: 500
+
+Question 6: The Date object is represented by stopDate. Its original date is December 1. Set it for the end of the month.
+Answer: stopDate.setDate(31);
+
+Question 7: The Date object is represented by deadline. Change the deadline to midnight, setting hours only. Assume that minutes, seconds, and milliseconds are set to 0.
+Answer: deadline.setHours(0);
+
+Question 8: The Date object represented by d is the first month. Change it to the second month.
+Answer: d.setMonth(1);
+
+Question 9: Set a Date object represented by a variable of your choice to the year of the Millenium Bug.
+Answer: bugHysteriaTime.setFullYear(2000);
+
+Question 10: Set a Date object represented by a variable of your choice to the last second.
+Answer: d.setSeconds(59);
+
+Question 11: Set a Date object represented by a variable of your choice to the last hour.
+Answer: pastDate.setHousrs(23);
+
+Question 12: Set a Date object represented by a variable of your choice that was originally "January 1, 2000 09:33:00" so it's "January 1, 2000 09:00:00".
+Asnwer: dDay.setMinutes(0);
+
+Question 19: Create a Date object for the current date and time.
+Extract the hours.
+Reset the Date object an hour ahead.
+Display the date Object in an alert.
+Click the Run It button to run your code live.
+Answer: var now = new Date();
+var nowHours = now.getHours();
+now.setHours(nowHours + 1);
+alert(now);
+
+Question 20:Create a Date object for the current date and time.
+Extract the year.
+Reset the Date object a century back.
+Display the date Object in an alert.
+Click the Run It button to run your code live. Try running it several times.
+Answer: var now = new Date();
+var nowYear = now.getFullYear();
+now.setFullYear(nowYear - 100);
+alert(now);
