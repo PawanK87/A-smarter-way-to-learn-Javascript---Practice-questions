@@ -1,0 +1,77 @@
+Question 1: In one word, what is a block of code that executes whenever you invoke its name?
+Answer: function
+
+Question 2: Any name that is legal for a _________ is legal for a function.
+Answer: variable
+
+Question 3: Write a function call that uses just 4 characters. Name it anything you like, within the limitation that the whole statement is just 4 characters.
+Answer: 
+Answer: f();
+
+Question 4: This is the first line of the function code. Write the statement that calls it.
+function doSomething() {
+Answer: doSomething();
+
+Question 6: Code the first line of a function 
+displayAlert
+Answer: function displayAlert() {
+
+Question 7: Code a function named askName that prompts the user to "Enter name" and assigns the answer to userName, which hasn't been declared beforehand.
+Answer: function askName() {
+  var userName = prompt("Enter name");
+}
+
+Question 8: Code the first line of a function named for Johnny Appleseed's favorite fruit.
+Answer: function apple() {
+
+Question 9: Code a function named say that displays an alert with your first name as the message.
+Asnwer: function say() {
+alert("Mark");
+}
+
+Question 10: Code a function that concatenates string1 and string2 and assigns the result to a variable that hasn't been declared beforehand. (For the sake of practice, I'm asking you to violate a good-coding rule here, which you'll learn about in Chapter 38. If you're charged with a coding crime, I'll testify to your innocence.)
+Answer: function concat() {
+  var combo = string1 + string2;
+}
+
+Question 11: What are the 4 missing characters, including a space?
+function doSomething
+Answer: () {
+
+Question 12:Code a function that calls itself.
+Asnwer: function endless() {
+
+  endless();
+}
+
+Question 14: Code a function that calls 2 other functions.
+Answer: function callAFunction() {
+  doSomething();
+  doSomethingElse();
+}
+
+Question 16: Code a function named getName that displays a prompt that says "Enter name" and assigns the answer to userName, which hasn't been declared beforehand.
+Answer: function getName() {
+  var userName = prompt("Enter name");
+}
+
+Question 18: Code a function that calls itself. (You wouldn't really want to do this. It would result in an endless loop.)
+Answer: function runsForever() {
+  runsForever();
+}
+
+Question 19: Code a function that displays an alert, "Hello world." Call the function. If nothing happens, there is an error in your code.
+Asnwer: function greet() {
+  alert("Hello world");
+}
+greet();
+
+Question 20: Code a function that displays a prompt, "Enter name" and then displays the name in an alert. Call the function. If nothing happens, there is an error in your code.
+Answer: function askAndPlayback() {
+  var userName = prompt("Enter name");
+  alert(userName);
+}
+askAndPlayback();
+
+
+
