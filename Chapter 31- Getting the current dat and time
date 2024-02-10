@@ -1,0 +1,56 @@
+Question 1: The statement below creates a Date _____.
+var now = new Date();
+Answer: object
+
+Question 2: A date object looks like a _______ but isn't one.
+Answer: string
+
+Question 3: Two of the characters in this statement are incorrect. Type the correct characters in order, without a space separating them.
+var currentDateAndTime = New date();
+Answer: nD (that's the right answer - var currentDateAndTime = new Date();
+
+Question 4: If it's Saturday, what is the value of thisDay?
+var thisDay = now.getDay();
+Asnwer: 6
+
+Question 6: Code a statement that creates a new Date object and assigns it to dObj, which hasn't been declared beforehand.
+Answer: var dObj = new Date():
+
+Question 7: Code a statement that creates a new Date object, converts it to a string, and assigns the string to dStr, which hasn't been declared beforehand.
+Asnwer: var dStr = new Date().toString();
+
+Question 8: Code a statement that creates a new Date object and assigns it to d, which hasn't been declared beforehand.
+Answer: var d = new Date();
+
+Question 9: Code a statement that extracts the day of the week from a Date object represented by d and assigns it to day, which hasn't been declared beforehand.
+Answer: var day = d.getDay();
+
+Question 10: Code a statement that creates a new Date object and assigns it to a variable that hasn't been declared beforehand.
+Answer: var thisDay = new Date();
+
+Question 11: Code a statement that extracts the day of the week from a Date object represented by a variable and assigns it to a variable that hasn't been declared beforehand.
+Answer: var theDay = d.getDay();
+
+Question 12: The day has been extracted from the Date object and assigned to d. The names of the days of the week have been assigned to the array dayNames. Fill in the blank.
+alert("Today is " + ___________);
+Asnswer: dayNames[d]
+
+Question 18: Code the first line of an if statement that tests whether the day extracted from the Date object represented by now is a Thursday.
+Answer: if (now.getDay() === 4) {
+
+Question 19: Create a new Date object.
+Code an alert that displays the number representing the current day.
+Click the Run It button to run your code live.
+Answer: var d = new Date();
+alert (d.getDate());
+
+Question 20: Create a new Date object.
+Extract the day.
+Convert the day to a day name.
+Code an alert that displays the day name.
+Click the Run It button to run your code live.
+Asnwer: var dayNames = ["Sun", "Mon", "Tue", "Wed","Thu",
+    "Fri", "Sat"];
+var d = new Date();
+var theDay = d.getDay();
+alert(dayNames[theDay]);
