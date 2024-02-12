@@ -1,0 +1,74 @@
+Question 1: The variables in a function definition that catch the data passed to them by the calling code are called _________.
+Answer: parameters
+
+Question 2: When there are multiple arguments and parameters, type the character that separates the individual items in the list
+Answer: :,
+
+Question 3: The rules for naming parameters are the same as the rules for naming ______.
+Answer: Variables
+
+Question 4: When there are multiple arguments and parameters, the arguments and parameters are matched up by their (1 word) _______.
+Answer: order
+
+Question 6: Code a call to the function displayAlert that passes the argument "Hello world"
+Answer: displayAlert ("Hello world");
+
+Question 7: Code the first line of a function named concat that has 3 parameters, the first three letters of the alphabet.
+Asnwer: function concat (a, b, c) {
+
+Question 8: Code a function call that takes a variable, a string, and a number as arguments.
+Asnwer: makeAddress(city, "Texas", 24);
+
+Question 9: Code the first line of a function that has 2 parameters.
+Answer: function combineNames(firstName, lastName) {
+
+Question 10: Code a function that has 2 parameters. Concatenate them and assign the result to a variable that hasn't been declared beforehand.
+Answer: function concat(string1, string2) {
+  var combo = string1 + string2;
+}
+
+Question 11: The function call is:
+
+calc("Funds received", 500000);
+
+Code the first line of the function.
+Answer: function calc(text, amount) {
+
+Question 12: Code a function that has three parameters. Multiply them and assign them to a variable that hasn't been declared yet.
+Answer: function mult(a, b, c) {
+  var num = a * b * c;
+}
+
+Question 13: Code a call to x, with the first 3 letters of the alphabet being variables that serve as arguments.
+Answer: x(a, b, c);
+
+Question 14: Code the first line of a function that has 3 parameters. On the next line code the statement that calls the function, with 3 different variables used as arguments.
+(For example, if the parameters are a, b, and c, the arguments might be d, e, and f.) Don't indent the second line.
+Answer: function doSomething(a, b, c) {
+doSomething(d, e, f);
+
+Question 16: Code a function call that has 2 arguments that are variables.
+Answer: doSomething(var1, var2);
+
+Question 17: Code a function with 1 parameter that does nothing, and call it, specifying a variable as the argument.
+Answer: function doNothing(param1) {
+}
+doNothing(arg1);
+
+Question 19: I've coded the call to the function that displays the alert. Code the function. Leave my code as-is. Add your code below it.
+var part1 = "The medium ";
+var part2 = "is the message.";
+displayIdiom(part1, part2);
+Answer: function displayIdiom(part1, part2) {
+  alert(part1 + part2);
+}
+
+Question 20: Code a function with 2 number parameters. Sum them and assign the sum to a variable. The function displays an alert concatenating "The sum is " with the variable. Code the function call.
+Answer: function addEm(num1, num2) {
+  var sum = num1 + num2;
+  alert("The sum is " + sum);
+}
+
+addEm(100, 50);
+The sum is 150
+
