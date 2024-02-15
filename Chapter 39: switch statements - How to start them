@@ -1,0 +1,97 @@
+Question 1: The more conditions you need to test, the more you need to use a ______ statement.
+Answer: switch
+
+Question 2: Wherever you could use an ________ statement and its variations, you can use a switch statement.
+Answer: if
+
+Question 3: A switch statement begins with the keyword _________.
+Answer: switch
+
+Question 4: The second keyword used in a switch statement is _______.
+Answer: case
+
+Question 5: Drag and drop to assemble the first two lines of a switch statement.
+Answer: switch(age) {
+case 21 :
+
+Question 6: Code the first line of a switch statement that tests the variable population.
+Answer: switch(population) {
+
+Question 7: Code the first two lines of a switch statement that tests the variable city. The first case tested is "Akron"
+Answer: switch (city) {
+case "Akron" :
+
+Question 8: Code the first line of a switch statement.
+Answer: switch(someVariable) {
+
+Question 9: Code the first two lines of a switch statement that tests whether a particular string of your choice has been assigned to a particular variable of your choice.
+Answer: switch(country) {
+case "Portugal" :
+
+Question 10: Code the second line of a switch statement that tests for a number.
+Abswer: switch (num) {
+case 21: 
+
+Question 11: Code the second line of a switch statement that tests for a Boolean value.
+Answer: case true: 
+
+Question 12: Code the first two lines of a switch statement. It tests for a Boolean value.
+Answer: switch(condition) {
+case false :
+
+Question 13: Code the first line of a switch statement that tests the variable pop.
+Answer: switch(pop) {
+
+Question 16: Code the second line of the switch statement that's an alternative to:
+if (qty === 100) {
+Answer: case 100 :
+
+Question 19: Insert the missing line of code in the space I've provided after the first line. Leave my code as-is except for filling in that space. The correct code displays an alert with the message "You won"
+Answer: var win = true;
+
+case true :
+  alert("You won");
+  break;
+case false :
+  alert("You lost");
+  break;
+} 
+Answer: var win = true;
+switch(win) {
+case true :
+  alert("You won");
+  break;
+case false :
+  alert("You lost");
+  break;
+}
+
+Question 20: Insert the missing two lines of code in the spaces I've provided beneath the first two lines. (Leave my code as-is except for filling in those spaces.) The missing test is for the ZIP code 10001. If your code runs correctly, an alert will display saying "The city is Chicago"
+var ZIP = "60290";
+var city; 
+
+
+  city = "New York";
+  break;
+case "60290" :
+  city = "Chicago";
+  break;
+case "90001" :
+  city = "Los Angeles";
+  break;
+}
+alert("The city is " + city); 
+Answer: var ZIP = "60290";
+var city;
+switch(ZIP) {
+case "10001" :
+  city = "New York";
+  break;
+case "60290" :
+  city = "Chicago";
+  break;
+case "90001" :
+  city = "Los Angeles";
+  break;
+}
+alert("The city is " + city);
