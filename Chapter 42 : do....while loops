@@ -1,0 +1,85 @@
+Question 1: What is the nonspace character that always precedes the while clause in a do...while loop?
+Answer: }
+
+Question 2: What is the last character of a do...while loop?
+Answer: ;
+
+Question 3: Type the two characters that follow the first keyword in a do...while loop.
+Answer: [space] {
+
+Question 4: How many times will the alert be displayed? (Type a numeral.)
+var i = 0;
+do {
+  alert(i);
+  i++;
+} while (i < 0);
+Answer: i
+
+Question 6: Code the first line of a do...while loop.
+Answer: do {
+
+Question 7: Code the first 3 lines of a do...while loop that alerts the counter, i. The counter has already been initialized.
+Answer: do {
+alert (i);
+i++
+
+Question 8: Code the statement that needs to run above this line of code.
+do {
+  alert(i);
+  i++;
+Answer: var i = 0;
+
+Question 9: Code a do...while loop that runs 12 times and does nothing. The counter i has already been declared and assigned 0.
+Answer: do {
+  i++;
+} while (i <= 11);
+or
+do {
+  i++;
+} while (i < 12);
+
+Question 10: I've declared two variables and assigned values to them. Code a do...while loop that adds i to tot with each iteration. Use i > 0 as the loop limiter.
+var tot = 0;
+var i = 10;
+Answer: do {
+  tot = tot + i;
+  i--;
+} while (i > 0);
+
+Question 11: Code a do...while loop that alerts the counter with each iteration. Begin with the statement that initializes the counter. Run the loop as long as you like.
+Answer: var j = 0;
+do {
+  alert(j);
+  j++;
+} while (j <= 10);
+
+Question 12: I've coded an array. Code a do...while loop that looks for "pig" in the array. When it finds it, an alert displays saying, "Found it!" Use the length of the array as the loop limiter. Break out of the loop when "pig" is found.
+var animals = ["horse", "ox", "cow", "pig", "duck"];
+Answer: var i = 0;
+do {
+  if (animals[i] === "pig") {
+    alert("Found it!");
+    break;
+  }
+  i++;
+} while (i < animals.length);
+
+Question 19: Using a do...while loop, code an alert that loops 3 times, alerting the value of the counter each time.
+Answer: var i = 0;
+do {
+  alert(i);
+  i++;
+} while (i <= 2);
+The loop limiter can also be coded as i < 3.
+
+Question 20: I've coded an array. Code a do...while loop that looks for "Tigers" in the array. When "Tigers" is found, an alert displays saying, "Tigers is number [whatever its array number is] in the array." Use the length of the array as the loop limiter. Break out of the loop when "Tigers" is found. Don't change my code. Add your code below it.
+var teams = ["Chiefs", "Bees", "Tigers", "Bears"];
+Answer: var teams = ["Chiefs", "Bees", "Tigers", "Bears"];
+var i = 0;
+do {
+  if (teams[i] === "Tigers") {
+    alert("Tigers is number " + i + " in the array.");
+    break;
+  }
+  i++;
+}​ while (i < teams.length);
