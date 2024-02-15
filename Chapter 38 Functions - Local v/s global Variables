@@ -1,0 +1,88 @@
+Question 1: A variable declared in the main code is a ______ variable.
+Answer: global
+
+Question 2: A variable declared in a function is a ________ variable.
+Answer: local
+
+Question 3: A parameter is a ________ variable.
+Answer: local
+
+Question 4: Global and local variables differ in their _______.
+Answer: scope
+
+Question 5: Drag and drop to assemble the function concatWds and the code that calls it. When the process is complete, message will be assigned the string "Hello Kitty"
+Answer: function concatWds(word1, word2) {
+  var text = word1 + word2;
+  return text;
+}
+
+var message = concatWds("Hello ", "Kitty");
+
+Question 6: Code the statement that, depending on whether it occurs within a function or in the main code, determines whether purchaseTotal has global or local scope.
+Answer: var purchaeTotal;
+
+Question 7: Code something called useless that does nothing but create valueless, which has local scope.
+Asnwer: function useless() {
+  var valueless;
+}
+
+Question 8: Code a statement that assigns the value returned by a function to a global variable.
+Answer: var age = checkAge();
+The function checkAge returns a value to the global variable age.
+
+Question 9: Code a function without parameters that does nothing but create two local variables.
+Answer: function makeVars() {
+  var firstVar;
+  var secondVar;
+}
+
+Question 10: Code a statement that passes the value of a local variable to a global variable in the main code.
+Answer: return total; (The value of the local variable total is passed back to the calling statement via the return statement.)
+
+Question 11: Code a statement that passes the values of two global variables to a function and anticipates that the function will return a value to be assigned to a new global variable. The global variable hasn't been declared beforehand.
+Answer: var globalVar = processNums(num1, num2);
+
+Question 12: Code a function without parameters that creates two local variables and does nothing with them. Then it (unwisely) assigns the number 10 to a global variable that you've made up without a return statement.
+Answer: function reckless() {
+  var safeVariable1;
+  var safeVariable2;
+  unsafeVariable = 10;
+}
+
+Question 15: Code the first line of a function that implicitly declares two local variables.
+Asnwer: function doSomething(param1, param2) {
+
+Question 16: The only place where a local variable has a value is within the ________ where it is declared.
+Answewr: function
+
+Question 19: Insert the missing line of code. Leave my code as-is except for your additional line of code. The correct code displays an alert with the message "Abraham Lincoln."
+function makeMessage(part1, part2) {
+  var message = part1 + part2;
+
+}
+
+var firstName = "Abraham ";
+var lastName = "Lincoln"; 
+alert(makeMessage(firstName, lastName));
+Asnwer: function makeMessage(part1, part2) {
+  var message = part1 + part2;
+  return message;
+}
+
+var firstName = "Abraham ";
+var lastName = "Lincoln";
+alert(makeMessage(firstName, lastName));
+
+Question 20: Insert the missing line of code. Leave my code as-is except for your additional line of code. The correct code displays an alert showing the total of the three numbers.
+function calcTotal(num1, num2, num3) {
+
+  return total;
+}
+
+alert(calcTotal(12, 24, 48));
+Answer: function calcTotal(num1, num2, num3) {
+  var total = num1 + num2 + num3;
+  return total;
+}
+
+alert(calcTotal(12, 24, 48));
