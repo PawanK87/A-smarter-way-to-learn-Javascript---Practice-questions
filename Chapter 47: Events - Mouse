@@ -1,0 +1,44 @@
+Question 1: What is the keyword for detecting that the user is hovering over an element?
+Answer: onMouseover
+
+Question 2: What is the keyword for detecting that the user is no longer hovering over an element?
+Answer: onMouseout
+
+Question 3: When the user hovers over the image, it changes to 2.png. Complete the code.
+<img src="1.png" ______________________________
+Answer: onMouseover="src='2.png'">
+
+Question 4: When the user stops hovering over the heading, the function gone executes. Fill in the blank.
+<h1 ________________>Get away from me!</h1>
+Answer: onMouseout="gone();"
+
+Question 5: Drag and drop to write markup for a link that, when moused over, displays an alert saying, "Takes you back to home page". The text for the link is "Home".
+Answer: <a href="index.html" onMouseover="alert('Takes you back to home page');">Home</a>\
+
+Question 6: When the user hovers over a paragraph, the function expand executes. Code the opening paragraph tag.
+Answer: <p onMouseover="expand();">
+
+Question 7: When the user hovers over 1.png it is replaced by 2.png.
+Answer: <img src="1.png" onMouseover="src='2.png'">
+
+Question 8: When the user hovers over the h2 heading that says "More" the function expand executes. Write the opening tag, the text, and the closing tag.
+Answer: <h2 onMouseover="expand();">More</h2>
+
+Question 9: When the user moves off the paragraph, the function gone executes. Code the opening tag.
+Answer: <p onMouseout="gone();">
+
+Question 10: When the user hovers over a button that says "Panic" an alert displays saying "Eeek!"
+Asnwer: <input type="button" value="Panic" onMouseover="alert('Eeek!');">
+
+Question 11: When the user hovers over a link to index.html, the color of the text changes to red. Code only the opening tag.
+Answer: <a href="index.html" onMouseover="this.style.color='red';">
+
+Question 12: When the user hovers over pic1.gif, it is replaced by pic2.gif. When the user moves off the image, it reverts to pic1.gif.
+Answer: <img src="pic1.gif" onMouseover="src='pic2.gif'" onMouseout="src='pic1.gif'">
+
+Question 19: Code a button that, when hovered over, displays an alert.
+Answer: <input type="button" value="Say hello" onMouseover="alert('Hello!');">
+
+Question 20: Write markup that displays the image janice-before.jpg. When the user hovers over the image, it is replaced by janice-after.jpg. When the user moves off the image, it reverts to janice-before.jpg.
+Answer 20: <img src="janice-before.jpg" onMouseover="src='janice-after.jpg'" onMouseout="src='janice-before.jpg'">
+
