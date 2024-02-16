@@ -1,0 +1,54 @@
+Question 1: Fill in the blank.
+______"JavaScript:void(0)" onClick="greet();">Get greeting</a>
+Answer: <a href=
+
+Question 2: Fill in the blank. Use any text you like.
+<a href="JavaScript:void(0)" onClick="find();">_________
+Answer: Hunt</a>
+
+Question 3: Type the 3 characters that are missing. (They aren't necessarily consecutive.)
+<a href="JavaScript:void(0)" onClick popup('Hi');>Click</a>
+Answer: <a href="JavaScript:void(0)" onClick="popup('Hi');">Click</a>
+
+Question 4: What is the keyword that tells the browser to watch for a click on a link?
+Answer: onClick
+
+Question 5: Drag and drop to create a link that triggers an event.
+Answer: <a href="JavaScript:void(0)" onClick=
+"alert('Hi');">Click</a>
+
+Question 6: Using the preferred approach (no #), code a link that triggers an alert that says "Hi" when a link that says "Click" is clicked.
+Answer: <a href="JavaScript:void(0)" onClick="alert('Hi');">Click</a>
+
+Question 8: To complete the code for this link that triggers an event when it's clicked, fill in the blank.
+<a href="JavaScript:void(0)" _________"alert('Hi');">Click</a>
+Answer: onClick=
+
+Question 9: To complete the code for this link that triggers an event when it's clicked, fill in the blank, using the preferred approach (no #).
+<a href=_____________ onClick="alert('Hi');">Click</a>
+Answer: "JavaScript:void(0)"
+
+Question 10: Using the preferred approach (no #), code a link that triggers an event—but stop coding after the second equal sign.
+Answer: <a href="JavaScript:void(0)" onClick=
+
+Question 11: Code the rest of this link markup. When the user clicks the link, that says "Click", it displays an alert that says "Hi".
+<a href="JavaScript:void(0)" onClick=
+Answer: "alert('Hi');">Click</a>
+
+Question 12: Using the preferred approach (no #), write the markup for a link, that says anything you like, that, when clicked, calls a function. The name of the function is also up to you.
+Answer: <a href="JavaScript:void(0)" onClick="myFunc();">Click</a>
+
+Question 14: When the link is clicked, the function myFunc is called. Fill in the blank.
+<a href="JavaScript:void(0)" ___________Do it</a>
+Answer: onClick="myFunc();">
+
+Question 19: Code a link that, when clicked, displays an alert.
+Answer: <a href="JavaScript:void(0)" onClick="alert('Hello world!');">Say hello</a>​
+
+Question 20: Code a link that, when clicked, calls the function. Don't change my code. Add your code below it.
+<script>
+function greet() {
+  alert("Hello world!");
+}
+</script>
+Answer: <a href="JavaScript:void(0)" onClick="greet();">Say hello</a>​
