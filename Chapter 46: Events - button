@@ -1,0 +1,55 @@
+Question 1: The code creates a button that, when clicked, calls a function. Fill in the blank.
+_____________ value="Submit" onClick="myFunc();">
+Asnwer: <input type="button"
+
+Question 2: The code creates a button that says "Click". Fill in the blank.
+<input type="button" _________ onClick="myFunc();">
+Answer: value="Click"
+
+Question 3: The code creates a button that, when clicked, calls the function myFunc. Fill in the blank.
+<input type="button" value="Click" ______________
+Answer: onClick="myFunc();">
+
+Question 4: The code displays an image, but.gif, that, when clicked, calls the function myFunc. Fill in the blank.
+_______________ onClick="myFunc();">
+Answer: <img src="but.gif"
+
+Question 5: Drag and drop to create a button that says "Click" that triggers a function, myFunc.
+Answer: <input type="button" value="Click" onClick="myFunc();">
+
+Question 6: When the user clicks a button that says "Say hi" an alert displays saying "Hi"
+Answer: input type="button" value="Say hi" onClick="alert('Hi');">
+
+Question 7: When the user clicks a button that says "Click" it triggers a function, doSomething.
+Answer: <input type="button" value="Click" onClick="doSomething();">
+
+Question 8: When the button, which says "Say hi", is clicked, an alert displays saying "Hi". Complete the code.
+<input type="button"
+Answer: value="Say hi" onClick="alert('Hi');">
+
+Question 9: When the button, which says "Click", is clicked, the function doIt executes. Code it.
+Answer: <input type="button" value="Click" onClick="doIt();">
+
+Question 10: When the image click.png is clicked, an alert displays saying, "You clicked the pic" Fill in the blank.
+________________ onClick="alert('You clicked the pic');">
+Answer: <img src="click.png"
+
+Question 11: When the image click.png is clicked, an alert displays saying, "You clicked the pic" Code it.
+Answer: <img src="click.png" onClick="alert('You clicked the pic');">
+
+Question 12: When the image, pic.gif, is clicked, the function doIt executes. Code it.
+Answer: <img src="pic.gif" onClick="doIt();">
+
+Question 18: When the button, which says "add", is clicked, the variable x, declared beforehand, is assigned true.
+Answer: <input type="button" value="add" onClick="x=true;">
+
+Question 19: Code a button that, when clicked, displays an alert.
+Answer: <input type="button" value="Say hello" onClick="alert('Hello!');">
+
+Question 20:Code a button that, when clicked, calls the function. Don't change my code. Add your code below it. 
+<script>
+function greet() {
+  alert("Hello world!");
+}
+</script>
+Answer: <input type="button" value="Say hello" onClick="greet();">
