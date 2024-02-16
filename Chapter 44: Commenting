@@ -1,0 +1,60 @@
+Question 1: What is the tag for commenting 1 line at a time?
+Answer: //
+
+Question 2: What is the opening tag for block comments?
+Answer: /*
+
+Question 3: What is the closing tag for block comments?
+Answer: */
+
+Question 4: Write a 1-line comment that says, "This is a comment"
+Answer: // This is a comment
+
+Question 5: Drag and drop to create a block comment.
+Answer: 
+/*
+This is an example of a comment block.
+The browser ignores all text between the tags.
+*/
+
+Question 7: Code a 2-line block comment (4 lines counting the opening and closing tags). Line 1: "I'm learning to comment" Line 2: "by practicing commenting"
+Answer: /*
+I'm learning to comment
+by practicing commenting
+*/
+
+Question 8: Write a 1-line comment of your choice.
+Answer: // This code need to be revised
+
+Question 9: Code an alert followed by a comment of your choice—all on 1 line.
+Answer: alert("Hello world!"); // Greet the user
+
+Question 10: Write a 2-line comment of your choice with opening and closing tags. (4 lines including opening and closing tags)
+Answer:/*
+This comment refers to
+the code that follows
+*/ 
+
+Question 11: Rewrite this code so it doesn't execute. (Comment it out.)
+a = a - 1;
+Answer: // a = a - 1;
+
+Question 12: Rewrite this block so it executes.
+
+/*
+a = a - 1;
+b = b + 1;
+*/
+Answer: a = a - 1;
+b = b + 1;
+
+Question 19: Code an alert. Add a comment on the same line.
+Answer: alert("Hello world!"); // Say hello to the user
+
+Question 20: Write a 2-line comment, enclosed in opening and closing tags. Below it, code an alert.
+Answer: /*
+Say hello to the user assuming she's
+an American who prefers informality
+*/
+alert("Hi");
+
