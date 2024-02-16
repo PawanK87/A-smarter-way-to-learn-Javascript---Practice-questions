@@ -1,0 +1,47 @@
+Question 1: The Best location, in most cases, for Javascript code.
+Answer: The best place is the end of the bodyu section.
+
+Question 2: What are the opening and closing tags that enclose JavaScript code that is embedded in HTML? Don't separate them with a space.
+Answer:  <script></script>
+
+Question 3: What are the last 3 characters of a JavaScript file name? 
+Answer: .js
+
+Question 4: Drag and drop to include a JavaScript file in an HTML page.
+Answer: <script src="scripts.js"></script>
+
+Question 5: When you embed JavaScript in HTML, what is the tag above the first line of JavaScript?
+Answer: <script>
+
+Question 7: Include the file scripts.js in the HTML page. Add the closing tag.
+Answer: <script src="scripts.js"></script>
+
+Question 8: If you follow my recommendation, what is the line below the last </script> tag in an HTML document?
+Answer: </body>
+
+Question 9: What is the closing tag for JavaScript code?
+Answer: </script>
+
+Question 10: What is an example of a name for an external JavaScript file?
+Answer: <script src="whatever.js"></script>
+
+Question 11: Code the tags for including an external JavaScript file in a page. Use any name you like for the JavaScript file.
+Answer: <script src="main.js"></script>
+
+Question 12: Below is the last reference to JavaScript in the HTML file. If you follow my recommendation, what is the line below it?
+<script src="main.js"></script>
+Answer: </body>
+
+Question 17: What is an example of a name for an external JavaScript file?
+Answer: allScripts.js
+
+Question 19: Code an alert of your choice. Enclose the code inside the appropriate tags.
+Answer: <script>
+alert("Hello world!");
+</script>
+
+Question 20: Load the file practice.js that includes the function goodLooking. Call the function. When you code correctly, an alert will display.
+Answer: <script src="practice.js"></script>
+<script>
+goodLooking();
+</script>
