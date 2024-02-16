@@ -1,0 +1,40 @@
+Question 1: What is the keyword for detecting that the user has clicked in a field?
+Answer: onFocus
+
+Question 2: What is the keyword for detecting that a field no longer has the focus?
+Answer: onBlur
+
+Question 3: When the user clicks in the field, the function is called. Fill in the blank.
+<input type="text"__________"doSomething();">
+Answer: onFocus=
+
+Question 4: When the text field loses the focus, the function gone executes. Fill in the blank.
+<input type="text" ___________________________
+Answer: onBlur="gone();">
+
+Question 6: Display a text field. When the user clicks in the field, the function doIt executes.
+Answer: <input type="text" onFocus="doIt();">
+
+Question 7: Display a text field. When the user clicks in the field, the field turns yellow.
+Answer: <input type="text" onFocus="this.style.backgroundColor = 'yellow';">
+
+Question 8: Code a text field. When the user clicks in it, call a function.
+Answer: <input type="text" onFocus="myFunction();">
+
+Question 9: Code a text field. When it loses the focus, call a function.
+Answer: <input type="text" onBlur="myFunction();">
+
+Question 10: Code a text field. When the user clicks in it, the field turns yellow.
+Answer: <input type="text" onFocus="this.style.backgroundColor = 'yellow';">
+
+Question 11: Code a text field. When it loses the focus, the field turns white.
+Answer: <input type="text" onBlur="this.style.backgroundColor = 'white';">
+
+Question 12: Code a text field. When the user clicks in it, a function executes. When the field loses focus, a different function executes.
+Answer: <input type="text" onFocus="colorField();" onBlur="uncolorField();">
+
+Question 19: Code a text field that changes color when it receives the focus.
+Answer: <input type="text" onFocus="this.style.backgroundColor = 'yellow';">
+
+Question 20: Code a text field that changes color when it receives the focus and reverts to white when it loses the focus.
+Answer: <input type="text" onFocus="this.style.backgroundColor = 'yellow';" onBlur="this.style.backgroundColor = 'white';">
